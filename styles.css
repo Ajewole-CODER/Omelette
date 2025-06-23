@@ -1,0 +1,128 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #5F564D;
+            background-color: #F3E5D7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: 'Lora', serif;
+            color: #312E2C;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .description {
+            margin-bottom: 25px;
+        }
+
+        .prep-time {
+            background-color: #FFF7FC;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .prep-time h3 {
+            color: #7B284F;
+            margin-bottom: 12px;
+        }
+
+        .prep-time ul {
+            padding-left: 20px;
+        }
+
+        .prep-time li {
+            margin-bottom: 8px;
+            padding-left: 15px;
+        }
+
+        .prep-time li::marker {
+            color: #7B284F;
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            color: #854632;
+            margin: 20px 0 15px;
+            font-weight: 600;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+
+        ul li::marker {
+            color: #854632;
+        }
+
+        ol li::marker {
+            font-weight: bold;
+            color: #854632;
+        }
+
+        .nutrition table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .nutrition tr {
+            border-bottom: 1px solid #E3DDD7;
+        }
+
+        .nutrition tr:last-child {
+            border-bottom: none;
+        }
+
+        .nutrition td {
+            padding: 12px 0;
+        }
+
+        .nutrition td:last-child {
+            font-weight: bold;
+            color: #854632;
+        }
+
+        .attribution {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  color: dimgray;
+}
+
+.attribution a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
